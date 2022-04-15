@@ -1,3 +1,64 @@
+# <div style="text-align: center;">API Product<br>UTS Pemrograman Web Framework</div>
+
+## Identity
+
+- Name : [Ikhsan Maulana](https://github.com/akhsaul)
+- NIM : 20416255201192
+- Class : IF20E
+
+## How to Install
+
+1. [Clone this repository](#how-to-clone).
+2. Install [XAMPP](https://www.apachefriends.org/download.html) with PHP version 8 or newer.
+3. Make sure PHP directory can be found in `PATH` environment.
+4. Open XAMPP. Turn on Apache dan MySQL.
+5. Open Phpmyadmin and create a new database named `pwfuts`.
+6. Download file database [here](/public/db/pwfuts.sql). `/public/db/pwfuts.sql`.
+7. Import database named `pwfuts.sql`.
+8. [Run server](#how-to-run-server-api).
+
+## Testing API
+
+### Login as Admin (to get Auth Token)
+
+![Login as Admin Image](/public/img/login.png "Login as Admin")
+
+### Add Data Product
+
+![Add Data Product Image](/public/img/add.png "Add Data Product")
+
+### Read All Data Product
+
+![Read All Data Product Image](/public/img/readAll.png "Read All Data Product")
+
+### Read Data Product By ID
+
+![Read Data Product By ID Image](/public/img/readById.png "Read Data Product By ID")
+
+### Read Data Product By Name
+
+![Read Data Product By Name Image](/public/img/readByName.png "Read Data Product By Name")
+
+### Update Data Product
+
+![Update Data Product Image](/public/img/update.png "Update Data Product")
+
+### Delete Data Product
+
+![Delete Data Product Image](/public/img/delete.png "Delete Data Product")
+
+## How to Clone
+
+1. Install [git](https://git-scm.com/downloads).
+2. Open ***CMD*** or ***Terminal***.
+3. Run this command `git clone https://github.com/akhsaul/PWF-UTS.git`.
+
+## How to Run Server API
+
+1. Open ***CMD*** or ***Terminal***.
+2. Move current directory to your cloning directory. Example:`cd /d  "D:/project/PWF-UTS"`.
+3. Run this command `php artisan serve`.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -26,38 +87,6 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 

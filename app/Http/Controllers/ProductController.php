@@ -18,7 +18,7 @@ class ProductController extends Controller
         ]);
 
         if ($validator->fails()) {
-            return response()->json($validator->messages())->setStatusCode(422);
+            return response()->json($validator->messages(), 422);
         } else {
             $payload = $validator->validated();
             Product::create([
@@ -83,8 +83,8 @@ class ProductController extends Controller
                 'expired_at' => 'required|date'
             ]);
             if ($validator->fails()) {
-                return response()->json($validator->messages())->setStatusCode(422);
-            }else{
+                return response()->json($validator->messages(), 422);
+            } else {
                 $payload = $validator->validated();
                 Product::where('id', $id)->update([
                     'product_name' => $payload['product_name'],
