@@ -1,4 +1,4 @@
-# <div style="text-align: center;">API Product<br>UTS Pemrograman Web Framework</div>
+# <div align='center'>API Product<br>UTS Pemrograman Web Framework</div>
 
 ## Identity
 
